@@ -1,0 +1,40 @@
+.navbar {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-family: amatic;
+  font-size: 1.5em;
+}
+
+body {
+  background-image: url("../images/watercolor_background2.jpg");
+}
+
+p {
+	font-family: muli;
+}
+
+#center-block {
+	background-color: white;
+	max-width: 70%;
+}
+
+#site-logo {
+	max-width: 65%;
+}
+
+#email-icon {
+	max-width: 10%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+  font-family: amatic;
+  src: url(fonts/amatic.ttf);
+}
+
+@font-face {
+  font-family: muli;
+  src: url(fonts/muli.ttf);
+}
