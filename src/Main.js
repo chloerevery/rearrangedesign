@@ -13,7 +13,7 @@ class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <div class="container mt-lg-5 mt-md-5 mt-sm-2 mt-xs-2 mb-5 pt-2 pb-5" id="center-block">
+        <div class="container mt-lg-4 mt-md-4 mt-sm-2 mt-xs-2 mb-5 pt-2 pb-5" id="center-block">
           <div class="row justify-content-center">
             <div class="col-md-12 col-lg-12 col-sm-10 col-xs-8">
               <img src={logo} id="site-logo" class="img-fluid mx-auto"></img>
