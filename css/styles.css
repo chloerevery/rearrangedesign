@@ -7,6 +7,12 @@
 
 body {
   background-image: url("../images/watercolor_background2.jpg");
+  background-attachment: fixed;
+}
+
+#motto {
+	font-family: amatic;
+	font-size: 2em;
 }
 
 p {
@@ -16,6 +22,7 @@ p {
 #center-block {
 	background-color: white;
 	max-width: 70%;
+	border: 1px solid black;
 }
 
 #site-logo {
