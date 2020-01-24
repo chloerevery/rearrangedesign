@@ -13,27 +13,27 @@ class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <div class="container mt-5 mb-5 pt-2 pb-5" id="center-block">
+        <div class="container mt-5 mt-sm-2 mt-xs-2 mb-5 pt-2 pb-5" id="center-block">
           <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-12 col-sm-8 col-xs-6">
+            <div class="col-md-12 col-lg-12 col-sm-10 col-xs-8">
               <img src={logo} id="site-logo" class="img-fluid mx-auto"></img>
             </div>
           </div>
         <nav class="navbar justify-content-center navbar-expand-sm navbar-expand-xs">
-          <ul class="navbar-nav pt-2 pb-2 pr-4 pl-4">
-            <li class="nav-item pl-3 pr-3 text-dark">
+          <ul class="navbar-nav pt-2 pb-2 pr-4 pl-4 pr-sm-1 pr-xs-1 pl-sm-1 pl-xs-1">
+            <li class="nav-item pl-3 pr-3 pl-sm-1 pl-xs-1 text-dark">
               <NavLink exact to="/">Home</NavLink>
             </li>
-            <li class="nav-item pl-3 pr-3 text-dark">
+            <li class="nav-item pl-3 pr-3 pl-sm-1 pl-xs-1 text-dark">
               <NavLink to="/about">About</NavLink>
             </li>
-            <li class="nav-item pl-3 pr-3">
+            <li class="nav-item pl-3 pr-3 pl-sm-1 pl-xs-1">
               <NavLink to="/gallery">Gallery</NavLink>
             </li>
-            <li class="nav-item pl-3 pr-3">
+            <li class="nav-item pl-3 pr-3 pl-sm-1 pl-xs-1">
               <NavLink to="/testimonials">Testimonials</NavLink>
             </li>
-            <li class="nav-item pl-3 pr-3">
+            <li class="nav-item pl-3 pr-3 pl-sm-1 pl-xs-1">
               <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
