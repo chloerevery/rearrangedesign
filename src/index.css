@@ -37,9 +37,33 @@ p {
 	font-family: muli;
 }
 
+@media (min-width: 300px) {
+#center-block {
+    max-width: 90%;
+}}
+
+@media (min-width: 650px) {
+#center-block {
+    max-width: 90%;
+}}
+
+@media (min-width: 768px) {
+#center-block {
+    max-width: 70%;
+}}
+
+@media (min-width: 992px) {
+#center-block {
+    max-width: 70%;
+}}
+
+@media (min-width: 1200px) {
+#center-block {
+    max-width: 70%;
+}}
+
 #center-block {
 	background-color: white;
-	max-width: 70%;
 	border: 1px solid black;
 }
 
